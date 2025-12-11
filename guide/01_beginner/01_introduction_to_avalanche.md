@@ -34,12 +34,12 @@ Above the Primary Network are the subnets. Each subnet is a separate blockchain 
 graph TD
     A[Avalanche Network] --> B[Primary Network]
     A --> C[Subnets]
-    B --> D[C-Chain (EVM)]
-    B --> E[P-Chain (Platform)]
-    B --> F[X-Chain (Assets)]
-    C --> G[Subnet 1 (e.g., DeFi Kingdom)]
-    C --> H[Subnet 2 (e.g., private enterprise chain)]
-    C --> I[...]
+    B --> D[C-Chain - Ethereum Virtual Machine EVM]
+    B --> E[P-Chain - Platform Chain Staking & Validator]
+    B --> F[X-Chain - Asset Chain Digital Assets]
+    C --> G[Subnet 1 - e.g., DeFi Kingdom]
+    C --> H[Subnet 2 - e.g., Private Enterprise Chain]
+    C --> I[Other Subnets - Custom Use Cases]
 ```
 
 ## Hands-on Lab
