@@ -32,13 +32,13 @@ Above the Primary Network are the subnets. Each subnet is a separate blockchain 
 
 ```mermaid
 graph TD
-    A[Avalanche Network] --> B(Primary Network);
-    A --> C(Subnets);
-    B --> D{C-Chain (EVM)};
-    B --> E{P-Chain (Platform)};
-    B --> F{X-Chain (Assets)};
-    C --> G[Subnet 1 (e.g., DeFi Kingdom)];
-    C --> H[Subnet 2 (e.g., a private enterprise chain)];
+    A[Avalanche Network] --> B[Primary Network]
+    A --> C[Subnets]
+    B --> D[C-Chain (EVM)]
+    B --> E[P-Chain (Platform)]
+    B --> F[X-Chain (Assets)]
+    C --> G[Subnet 1 (e.g., DeFi Kingdom)]
+    C --> H[Subnet 2 (e.g., private enterprise chain)]
     C --> I[...]
 ```
 
